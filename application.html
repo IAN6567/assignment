@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Student Application Form</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="programmes.html">Programmes</a>
+    <a href="services.html">Services</a>
+    <a href="application.html">Application</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+<main>
+  <form action="#" method="post">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="phone">Telephone:</label>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+
+    <p>Interests:</p>
+    <input type="checkbox" id="sports" name="interests" value="Sports">
+    <label for="sports">Sports</label>
+    <input type="checkbox" id="music" name="interests" value="Music">
+    <label for="music">Music</label><br><br>
+
+    <label for="programme">Programme:</label>
+    <select id="programme" name="programme">
+      <option value="bsc">BSc</option>
+      <option value="ba">BA</option>
+      <option value="mba">MBA</option>
+    </select><br><br>
+
+    <label for="statement">Personal Statement:</label><br>
+    <textarea id="statement" name="statement" rows="5" cols="40"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+</main>
+<footer>
+  <p>&copy; 2026 Our University</p>
+</footer>
+</body>
+</html>
